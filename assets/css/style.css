@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/dark-triangles.png");
+}
+
+#banner {
+    text-align: center;
+    background-color: lightgray;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    border: solid 2px gold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+#instructions {
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px 20px 10px 20px;
+    border: solid 2px gold;
+}
+
+#game {
+    margin-top: 10px;
+}
+
+#random-number {
+    background-color: white;
+    text-align: center;
+    border: solid 2px gold;
+}
+
+#your-score {
+    background-color: lightgray;
+    text-align: center;
+    border: solid 2px gold;
+}
+
+#wins-losses {
+    background-color: gray;
+    text-align: center;
+    padding-bottom: 6px;
+    border: solid 2px gold;
+}
+
+#four-rupees {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#rupee-box {
+    background-color: gray;
+}
+
+#rupee {
+    display: block;
+    max-height: 250px;
+}
