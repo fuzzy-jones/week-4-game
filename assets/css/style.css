@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: myFirstFont; 
+    src: url("../images/Triforce.TTF");
+}
+
 body {
     background-image: url("../images/zelda-background.png");
 }
@@ -5,21 +10,21 @@ body {
 #banner {
     text-align: center;
     background-image: url("../images/gplaypattern.png");
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     margin-top: 10px;
     border: solid 2px gold;
 }
 
 h1 {
-    font-size: 40px;
-    color: #a00000;
+    font-size: 60px;
+    color: #cc0000;
     font-weight: bold;
-    font-family: verdana;
+    font-family: myFirstFont;
 }
 
 p {
     font-size: 16px;
-    color: green;
+    color: #0d9263;
     font-weight: bold;
 }
 
