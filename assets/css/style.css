@@ -1,10 +1,10 @@
 body {
-    background-image: url("../images/dark-triangles.png");
+    background-image: url("../images/zelda-background.png");
 }
 
 #banner {
     text-align: center;
-    background-color: lightgray;
+    background-image: url("../images/gplaypattern.png");
     padding-bottom: 15px;
     margin-top: 10px;
     border: solid 2px gold;
@@ -12,6 +12,9 @@ body {
 
 h1 {
     font-size: 40px;
+    color: #a00000;
+    font-weight: bold;
+    font-family: verdana;
 }
 
 p {
@@ -21,7 +24,7 @@ p {
 }
 
 #instructions {
-    background-color: white;
+    background-image: url("../images/gplaypattern.png");
     text-align: center;
     margin-top: 10px;
     padding: 20px 20px 10px 20px;
@@ -33,7 +36,7 @@ p {
 }
 
 #random-number {
-    background-color: white;
+    background-color: #e0e0e0;
     text-align: center;
     border: solid 2px gold;
 }
@@ -57,10 +60,15 @@ p {
 }
 
 #rupee-box {
-    background-color: gray;
+    background-image: url("../images/gplaypattern.png");
+    overflow: hidden;
+    height: 250px;
+    padding: 0;
+    border: solid 2px gold;
 }
 
 #rupee {
-    display: block;
-    max-height: 250px;
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
