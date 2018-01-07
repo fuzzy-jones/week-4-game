@@ -41,22 +41,25 @@ p {
 }
 
 #random-number {
-    background-color: #e0e0e0;
+    background-color: #c8c8c8;
     text-align: center;
     border: solid 2px gold;
+    height: 110px;
 }
 
 #your-score {
-    background-color: lightgray;
+    background-color: #c8c8c8;
     text-align: center;
     border: solid 2px gold;
+    height: 110px;
 }
 
 #wins-losses {
-    background-color: gray;
+    background-color: #c8c8c8;
     text-align: center;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     border: solid 2px gold;
+    height: 110px;
 }
 
 #four-rupees {
@@ -72,7 +75,7 @@ p {
     border: solid 2px gold;
 }
 
-#rupee {
+.rupee {
     position: relative;
     height: 100%;
     width: 100%;

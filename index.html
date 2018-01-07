@@ -36,17 +36,17 @@
         <!-- random number -->
         <div class="col-md-3 col-md-offset-2 col-xs-3 col-xs-offset-2" id="random-number">
             <h3>Random Number:</h3>
-            <p style="font-size:30px;">0</p>
+            <p style="font-size:30px;" id="number">0</p>
         </div>
         <!-- your score from guessing -->
         <div class="col-md-3 col-xs-3" id="your-score">
             <h3>Your Score:</h3>
-            <p style="font-size:30px;">0</p>
+            <p style="font-size:30px;" id="score">0</p>
         </div>
         <!-- wins and losses -->
         <div class="col-md-2 col-xs-2" id="wins-losses">
-            <h3>Wins: 0</h3>
-            <h3>Losses: 0</h3>
+            <h3 id="wins">Wins: 0</h3>
+            <h3 id="losses">Losses: 0</h3>
         </div>
     </div>
 
@@ -54,23 +54,23 @@
     <div class="row" id="four-rupees">
 
         <div class="col-md-2 col-md-offset-2 col-xs-2 col-xs-offset-2" id="rupee-box">
-            <img src="assets/images/red-rupee.png" alt="red rupee" id="rupee">
+            <img src="assets/images/red-rupee.png" alt="red rupee" class="rupee" id="red-rupee">
         </div>
         <div class="col-md-2 col-xs-2" id="rupee-box">
-            <img src="assets/images/orange-rupee.png" alt="orange rupee" id="rupee">        
+            <img src="assets/images/orange-rupee.png" alt="orange rupee" class="rupee" id="orange-rupee">        
         </div>
         <div class="col-md-2 col-xs-2" id="rupee-box">
-            <img src="assets/images/yellow-rupee.png" alt="yellow rupee" id="rupee">        
+            <img src="assets/images/yellow-rupee.png" alt="yellow rupee" class="rupee" id="yellow-rupee">        
         </div>
         <div class="col-md-2 col-xs-2" id="rupee-box">
-            <img src="assets/images/green-rupee.png" alt="green rupee" id="rupee">       
+            <img src="assets/images/green-rupee.png" alt="green rupee" class="rupee" id="green-rupee">       
         </div>
 
     </div>
     
 </div> 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/javascript/game.js"></script> 
 
 </body>
