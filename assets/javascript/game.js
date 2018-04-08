@@ -1,13 +1,3 @@
-// pseudo code
-// create global variables for the game and score
-// generate random number with array 19-120
-    // display in html
-// generate random rupee value between 1-12 for each rupee
-// create on-click event for each of the 4 color rupees
-    // add value of rupee clicked to the user score and display in html
-// create function with logic to determine the results of game (win or loss)
-// reset after win or loss to create new random number and new rupee values
-
 
 $(document).ready(function(){
 
